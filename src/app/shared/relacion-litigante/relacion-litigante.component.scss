@@ -1,0 +1,65 @@
+body {
+  padding: 2rem;
+}
+
+/*
+.relacion-litigante {
+  display: inline;
+  margin-right: 50px;
+
+  .titulo {
+    width: 50px;
+    height: 50px;
+    background-color: #089ba0;
+    color: white;
+    font-weight: bold;
+    border-radius: .25rem;
+  }
+
+  .cantidad {
+    position: relative;
+    left: 30px;
+    bottom: 15px;
+  }
+
+  .badge-fixed-width {
+    width: 35px;
+  }
+}
+*/
+
+.relacion-litigante {
+  display: inline;
+  cursor: pointer;
+
+  .titulo {
+    width: 50px;
+    height: 50px;
+    background-color: #089ba0;
+    color: white;
+    font-weight: bold;
+    border-radius: .25rem;
+  }
+
+  .cantidad {
+    position: relative;
+    left: 30px;
+    bottom: 15px;
+  }
+
+  .badge-fixed-width {
+    width: 40px;
+  }
+
+  /*
+  &:hover {
+    .titulo {
+      opacity: 0.5;
+    }
+
+    .cantidad {
+      opacity: 0.5;
+    }
+  }
+  */
+}
